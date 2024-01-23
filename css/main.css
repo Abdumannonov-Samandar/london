@@ -154,10 +154,11 @@ border: 1px solid #FFF;
 }
 
 .site-hero__start {
+    width: 271px;
     margin-bottom: 25px;
     color: #FFF;
 font-variant-numeric: lining-nums tabular-nums;
-font-family: "Cera Round Pro";
+/* font-family: "Cera Round Pro"; */
 font-size: 23px;
 font-style: normal;
 font-weight: 700;
@@ -170,6 +171,7 @@ text-transform: capitalize;
 
 
 .site-hero__start-title {
+    width: 555px;
     margin-bottom: 20px;
     color: #FFF;
     font-family: "Cera Round Pro";
@@ -182,6 +184,8 @@ text-transform: capitalize;
 }
 
 .site-hero__start-desc {
+    width: 453px;
+    margin-bottom: 40px;
     color: #FFF;
 font-family: "Open Sans";
 font-size: 16px;
@@ -201,6 +205,15 @@ font-style: normal;
 font-weight: 700;
 line-height: 175%;
 letter-spacing: 0.64px;
+
+display: inline-flex;
+padding: 8px 32px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+border-radius: 100px;
+border: 1px solid #FFF;
 }
 
 /*--------------- HERO START------------ */
