@@ -191,16 +191,7 @@ line-height: 175%;
 letter-spacing: 0.64px;
 }
 
-.site-hero__start-btn {
-    display: inline-flex;
-padding: 8px 32px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
 
-border-radius: 100px;
-border: 1px solid #FFF;
-}
 
 .site-hero__start-btn-link {
     color: #FFF;
