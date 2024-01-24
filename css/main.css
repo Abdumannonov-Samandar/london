@@ -497,19 +497,20 @@ only screen and (                min-resolution: 2dppx) {
 /* --------------------HAPPY START------------------ */
 .happy {
   background: #F4F4F4;
- 
+  
 }
 
 
 .happy__wrapper-start {
- 
+  
   width: 100px;
   padding-left: 690px;
-
+  
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  
+  
 }
 
 
@@ -517,6 +518,7 @@ only screen and (                min-resolution: 2dppx) {
 .happy__start-subtitle {
   padding-top: 100px;
   margin-bottom: 8px;
+  
   color: #242424;
   font-variant-numeric: lining-nums tabular-nums;
   font-family: "Cera Round Pro";
@@ -568,11 +570,11 @@ only screen and (                min-resolution: 2dppx) {
   padding-top: 30px;
   padding-left: 20px;
   color: #333;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: 26px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
 }
 
 .happy__desc {
@@ -581,12 +583,12 @@ line-height: 26px;
   padding-left: 20px;
   padding-bottom: 20px;
   color: #333;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 22px;
-opacity: 0.7;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  opacity: 0.7;
 }
 
 .happy__date {
@@ -595,16 +597,16 @@ opacity: 0.7;
   gap: 20px;
   display: flex;
   color: #333;
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .happy-icon {
   width: 16px;
-height: 16px;
+  height: 16px;
   padding-top: 4px;
   
   
@@ -621,13 +623,321 @@ height: 16px;
   right: 50px;
 }
 
+.happy-list1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
 
+.happy-item2 {
+  display: flex;
+  align-items: center;
+  color: #242424;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: "Cera Round Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+  text-transform: capitalize;
+}
+
+.happy-item2.l {
+  width: 40px;
+  height: 40px;
+  gap: 30px;
+}
+
+.happy-item2.line::after {
+  margin-left: 8px;
+   content: "";
+   display: inline-block;
+   width: 16px;
+   height: 1px;
+  background: #242424;
+ 
+
+ } 
 
 
 
 
 
 /* --------------------HAPPY END-------------------- */
+
+/* ----------------------NEWS START -------------------------- */
+.news__wrapper {
+  width: 100%;
+  padding-top: 120px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+
+.news__wrapper-start {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.news__start-subtitle {
+  color: #242424;
+font-variant-numeric: lining-nums tabular-nums;
+font-family: "Cera Round Pro";
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+letter-spacing: 0.92px;
+text-transform: capitalize;
+}
+
+.news__start-title {
+  padding-bottom: 60px;
+  color: var(--qizil, #BB2339);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: "Cera Round Pro";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 1.44px;
+  text-transform: capitalize;
+}
+
+.news__list {
+display: flex;
+gap: 35px;
+
+}
+
+.news__item {
+  width: 410px;
+height: 584px;
+flex-shrink: 0;
+
+border-radius: 14px;
+border: 1px solid rgba(36, 36, 36, 0.10);
+background: #FFF;
+}
+
+.news__img {
+  width: 410px;
+height: 352px;
+border-radius: 14px 14px 0px 0px;
+}
+
+.news__item-title {
+  margin-top: 20px;
+  width: 332px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: #242424;
+font-variant-numeric: lining-nums tabular-nums;
+font-family: "Cera Round Pro";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+text-transform: capitalize;
+}
+
+.news__item-desc {
+  padding-left: 20px;
+width: 361px;
+margin-bottom: 20px;
+color: var(--AAAAAA, #AAA);
+font-family: "Open Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.news__item-date {
+  display: flex;
+  
+  
+} 
+
+.news__item-link {
+  padding-left: 20px;
+  color: var(--qizil, #BB2339);
+  margin-right: 80px;
+font-family: "Cera Round Pro";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.64px;
+}
+
+.news__date-time {
+  margin-left: 110px;
+  color: #242424;
+font-family: "Open Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.news-btn {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.news__btn-link {
+  display: inline-flex;
+  padding: 8px 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+border: 1px solid var(--qizil, #BB2339);
+
+  color: #242424;
+font-family: "Cera Round Pro";
+font-size: 16px;
+font-weight: 700;
+line-height: 175%;
+letter-spacing: 0.64px;
+}
+
+.news__btn-link:active {
+  color: #FFF;
+  background-color: #BB2339;
+}
+
+.newss__img {
+  width: 1920px;
+height: 763px;
+  width: 100%;
+  background-image: url(../assets/images/hotel-restaurant.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* ----------------------NEWS START -------------------------- */
+
+/* Photo start ------------ */
+.photo__wrapper {
+  padding-top: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.photo__wrapper-start {
+  width: 100%;
+  padding-right: 65px;
+  padding-left: 310px;
+  padding-top: 219px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.photo__wrapper-end {
+  width: 100%;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  display: flex;
+}
+
+.photo-list {
+  display: flex;
+  gap: 32px;
+}
+
+.photo-item {
+  width: 301px;
+height: 447px;
+}
+
+.photo-subtitle {
+  margin-bottom: 8px;
+  color: #242424;
+font-variant-numeric: lining-nums tabular-nums;
+font-family: "Cera Round Pro";
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+letter-spacing: 0.92px;
+text-transform: capitalize;
+}
+
+.photo-title {
+  margin-top: 8px;
+  width: 322px;
+  
+  margin-bottom: 24px;
+  color: #242424;
+font-variant-numeric: lining-nums tabular-nums;
+font-family: "Cera Round Pro";
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%;
+letter-spacing: 1.44px;
+text-transform: capitalize;
+}
+
+.photo-desc {
+  margin-bottom: 24px;
+  color: #AAA;
+  width: 491px;
+font-family: "Open Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 175%;
+letter-spacing: 0.64px;
+}
+
+.photo-link {
+  width: 149px;
+  color: #242424;
+font-family: "Cera Round Pro";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 175%;
+letter-spacing: 0.64px;
+
+display: flex;
+padding: 8px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 100px;
+border: 1px solid var(--qizil, #BB2339);
+}
+
+.photo-link:active {
+  color: #FFF;
+  background-color: #BB2339;
+}
+
+
+
+
+/* ----------------Photo end  */
 
 /*--------------------------- MAIN STYLES END ----------------------------- */
 
