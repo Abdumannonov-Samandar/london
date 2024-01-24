@@ -6,8 +6,8 @@
   --colorPrimary: #FFF;
   --colorSecondary: #242424;
   /* backgrounds */
-  --backgroundPrimary: #BB2339;
-  --backgroundSecondary: #FFF;
+  /* --backgroundPrimary: #BB2339; */
+  /* --backgroundSecondary: #FFF; */
   /* btn colors */
   /* --btnColor: #;
   --btnHover: #;
@@ -77,8 +77,9 @@ a {
   width: 100%;
   padding-top: 26px;
   padding-bottom: 26px;
-  padding-right: 110px;
-  padding-left: 110px;
+  padding-right: 310px;
+  padding-left: 310px;
+  background-color: #BB2339;
   
 }
 
@@ -145,12 +146,12 @@ a {
 .site-hero__wrapper {
   display: flex;
   padding-top: 80px;
-  padding-bottom: 237px;
-
+  
+  
   background-image: url("../assets/images/burger\ 1.png");
   background-repeat: no-repeat;
   background-position: calc(50% + 400px) 80px;
-
+  
 }
 
 @media
@@ -160,7 +161,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
-
+  
   .site-hero__wrapper {
     background-image: url(../assets/images/burger\ 2@2x.png);
   }
@@ -169,8 +170,8 @@ only screen and (                min-resolution: 2dppx) {
 .site-hero__wrapper-start {
   padding-top: 104px;
   padding-right: 94px;
-  padding-left: 110px;
-  padding-bottom: 300px;
+  padding-left: 310px;
+  padding-bottom: 310px;
 }
 
 .site-hero__start {
@@ -236,6 +237,7 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .site-hero-scroll {
+  
   padding-top: 700px;
   padding-left: 650px;
   width: 100%; 
@@ -257,9 +259,241 @@ only screen and (                min-resolution: 2dppx) {
   line-height: 28px; 
   letter-spacing: 0.64px; 
   word-wrap: break-word;
+  
 }
 
 
 
 /*--------------- HERO END------------ */
+
+/* ---------------POPULAR START-------------- */
+
+.popular {
+  width: 100%;
+  background: #F8F8F8;
+  padding-bottom: 120px;
+  
+}
+
+.popular__wrapper {
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-bottom: 40px;
+  padding-top: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular-icons {
+  display: flex;
+}
+
+.popular__title {
+  color: var(--red, #BB2339);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: "Cera Round Pro";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-transform: capitalize;
+}
+
+.popular__wrapper-star {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popular__list {
+  display: flex;
+  gap: 20px;
+  
+}
+
+.popular__item {
+  padding: 20px 20px;
+  width: 310px;
+  height: 396px; 
+  border-radius: 14px;
+  background: #FFF;
+}
+
+.popular-dishes__title {
+  width: 270px;
+  margin-bottom: 20px;
+  color: #242424;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.popular__start-star {
+  padding: 0 71px;
+  width: 104px;
+  margin-bottom: 20px;
+}
+
+.popular-dish__link {
+  
+  padding-left: 87px;
+  padding-right: 87px;
+  margin-bottom: 40px;
+  width: 76px;
+  color: var(--red, #BB2339);
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* ---------------POPULAR END-------------- */
+
+/* --------------------MENU START------------------ */
+.menu {
+  width: 100%;
+  padding-left: 50px;
+}
+.menu__wrapper {
+  
+  position: relative;
+  
+}
+
+.menu__spon {
+  width: 93px;
+  height: 93px;
+  position: absolute;
+  top: -50px;
+  right: 60px;
+}
+
+.menu__title {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  color: var(--qizil, #BB2339);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: "Cera Round Pro";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-transform: capitalize;
+}
+
+.menu__nav-list {
+  display: flex;
+  gap: 10px;
+  
+}
+
+.menu__nav-link {
+  color: #242424;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 175%;
+  letter-spacing: 0.8px;
+  text-transform: capitalize;
+  
+  display: flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px solid var(--qizil, #BB2339);
+}
+
+.menu__nav-link:active {
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 175%;
+  letter-spacing: 0.8px;
+  text-transform: capitalize;
+  
+  display: flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  border: 1px solid var(--qizil, #BB2339);
+  background: var(--qizil, #BB2339);
+}
+
+.menu__wrapper-start {
+  padding-top: 50px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.menu__start-list {
+  display: flex;
+  flex-wrap: wrap;
+  
+  gap: 20px;
+}
+
+.menu__start-item {
+  width: 310px;
+  height: 366px;
+  
+  
+  border-radius: 14px;
+  border: 1px solid rgba(36, 36, 36, 0.10);
+  background: #FFF;
+}
+
+.menu__start-img {
+  padding: 20px 20px 10px 20px;
+}
+
+.menu__start-title {
+  width: 270px;
+  margin-bottom: 20px;
+ 
+
+  padding: 0 20px;
+  color: #242424;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+
+.menu__start-link {
+  padding: 0 117px;
+  margin-bottom: 40px;
+  color: var(--qizil, #BB2339);
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* --------------------MENU START------------------ */
+
 /*--------------------------- MAIN STYLES END ----------------------------- */
+
