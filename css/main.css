@@ -467,8 +467,8 @@ only screen and (                min-resolution: 2dppx) {
 .menu__start-title {
   width: 270px;
   margin-bottom: 20px;
- 
-
+  
+  
   padding: 0 20px;
   color: #242424;
   text-align: center;
@@ -488,12 +488,146 @@ only screen and (                min-resolution: 2dppx) {
   text-align: center;
   font-family: "Open Sans";
   font-size: 24px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
 /* --------------------MENU START------------------ */
+
+/* --------------------HAPPY START------------------ */
+.happy {
+  background: #F4F4F4;
+ 
+}
+
+
+.happy__wrapper-start {
+ 
+  width: 100px;
+  padding-left: 690px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.happy__start-subtitle {
+  padding-top: 100px;
+  margin-bottom: 8px;
+  color: #242424;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: "Cera Round Pro";
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+  text-transform: capitalize;
+}
+
+.happy__start-title {
+  width: 418px;
+  margin-bottom: 60px;
+  
+  color: #242424;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: "Cera Round Pro";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 1.44px;
+  text-transform: capitalize;
+}
+
+.happy__wrapper {
+  padding-left: 30px;
+  width: 100%;
+  padding-bottom: 46px;
+  
+}
+
+.happy__start-list {
+  display: flex;
+  gap: 35px;
+  
+}
+
+.happy__start-item {
+  width: 410px;
+  height: 198px;
+  
+  
+  border-radius: 10px;
+  border: 1px solid rgba(51, 51, 51, 0.10);
+  background: #FFF;
+}
+
+.happy__title {
+  padding-top: 30px;
+  padding-left: 20px;
+  color: #333;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+}
+
+.happy__desc {
+  width: 360px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: #333;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+opacity: 0.7;
+}
+
+.happy__date {
+  padding-left: 20px;
+  padding-bottom: 30px;
+  gap: 20px;
+  display: flex;
+  color: #333;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.happy-icon {
+  width: 16px;
+height: 16px;
+  padding-top: 4px;
+  
+  
+}
+
+.happy-end {
+  position: relative;
+  padding-bottom: 90px;
+} 
+
+.happy-line1 {
+  position: absolute;
+  bottom: -50px;
+  right: 50px;
+}
+
+
+
+
+
+
+
+/* --------------------HAPPY END-------------------- */
 
 /*--------------------------- MAIN STYLES END ----------------------------- */
 
